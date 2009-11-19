@@ -48,7 +48,7 @@ some_type_whose_name_ive_forgotten main (i_think)
             rectangle (1, 1, SCREEN_W, SCREEN_H/4, RED_FLASHING,
                     BORDER_FAT);
             gotoxy (somewhere_on_screen_x, somewhere_off_screen_y);
-            fprintf (stdgogo, "GURU MEDITATION FAULT #%4d\n\n",
+            fprintf (stdgogo, "GURU MEDITATION FAULT #%ld\n\n",
                     random()%0xffff);
             fprintf (stdgogo, "Press left mouse button to simulate right"
                     "mouse button press.\n");
